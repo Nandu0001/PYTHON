@@ -1,0 +1,5 @@
+#get a string from an input string where all occurances of first character replaced by $,except first charecter
+m=input("enter a string:")
+char=m[0]
+m=m.replace(char,'$')
+print(char+m[1:])

@@ -1,0 +1,6 @@
+str = input("enter the string:")
+count = 0
+for i in str:
+    if str.isalpha():
+        count+=1
+print("the number of strings:",count)

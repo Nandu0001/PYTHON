@@ -1,0 +1,7 @@
+#find gcd
+import math
+
+num1=int(input("enter the 1st number:"))
+num2=int(input("enter the 2nd number:"))
+
+print(math.gcd(num1,num2))

@@ -1,0 +1,4 @@
+dict1={"anas":1,"vishnu":18,"niranjan":17,"akshay":5}
+dict2={"lijas":7,"murshid":19,"nideesh":2,"niranjan":8,"gokul":12}
+dict1.update(dict2)
+print("merged :",dict1)

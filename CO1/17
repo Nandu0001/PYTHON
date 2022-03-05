@@ -1,0 +1,8 @@
+dict={"aswini":7,"vyshnavi":21,"shahana":2,"shahzadi":8,"gopika":1,"nandana":18,"akshaya":17,"aparna":5}
+l1=list(dict.items())
+l1.sort()
+print("dictionary in ascending order :",l1)
+l2=list(dict.items())
+l2.sort(reverse=True)
+print("dictionary in descending order :",l2)
+

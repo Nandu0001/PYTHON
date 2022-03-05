@@ -1,0 +1,18 @@
+#a-same length? b-sum are same? c-common values
+l1 = [10,20,30,40,50]
+l2 = [90,80,70,60]
+print("length of list1",len(l1))
+print("length of list2",len(l2))
+if len(l1)==len(l2):
+    print("two lists are same length")
+total=sum(l1)
+print("sum of list1 is ",total)
+total=sum(l2)
+print("sum of list2 is ",total)
+if sum(l1)==sum(l2):
+    print("the two lists sum are equal")
+print("common values:")
+for i in l1:
+    if i in l2:
+        print(i)
+

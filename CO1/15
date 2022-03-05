@@ -1,0 +1,5 @@
+#print out all colors from l1 not contained in l2
+l1=["black","white","red"]
+l2=["pink","yellow","red"]
+print([i for i in l1 if i not in l2])
+

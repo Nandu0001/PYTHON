@@ -1,0 +1,10 @@
+#prompt the user for a list of integers.for all values greater then 100,store over instead
+n=int(input("enter the number of numbers:"))
+mylist = []
+for x in range(n):
+    x = int(input("enter the number:"))
+    if x<100:
+        mylist.append(x)
+    else:
+        mylist.append("over")
+print(mylist)

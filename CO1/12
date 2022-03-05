@@ -1,0 +1,3 @@
+#accept file name from user and print its extension
+file=input("enter a file name with extension:")
+print("the extension of the file is",file.split(".")[-1])

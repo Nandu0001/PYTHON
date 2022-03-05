@@ -1,0 +1,8 @@
+word = input("enter some words seperated by commas:")
+wordlist=word.split(",")
+longest=len(wordlist[1])
+for i in wordlist:
+    if longest < len(i):
+        longest = len(i)
+
+print("the length of longest word is:",longest)
