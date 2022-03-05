@@ -1,0 +1,10 @@
+import csv
+with open("movie.csv","w",newline="")as file:
+    write=csv.writer(file)
+    write.writerow(["SI No","Movie","Rating"])
+    write.writerow(["1","shutter island","7"])
+    write.writerow(["2","twilight","4"])
+with open("movie.csv")as csvfile:
+    data=csv.DictReader(csvfile)
+    for r in data:
+        print(r['SI No'],r['Movie'])

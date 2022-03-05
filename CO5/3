@@ -1,0 +1,11 @@
+import csv
+with open("demo.csv","w",newline="") as file:
+    write=csv.writer(file)
+    write.writerow(["SI No","movie","Rating"])
+    write.writerow(["1","shutter island","7"])
+    write.writerow(["2","twilight","4"])
+with open("demo.csv") as csvfile:
+    data=csv.reader(csvfile)
+    for r in data:
+        print(r)
+
